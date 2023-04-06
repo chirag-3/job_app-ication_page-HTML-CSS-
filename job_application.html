@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form>
+        
+            <div id="form-top">
+                <h1>Job Application</h1>
+            </div>
+
+            <div id="form-content">
+
+                <div id="field">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname">
+                </div>
+
+                <div id="field">
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname">
+                </div>
+
+                <div id="field">
+                    <label for="email">Email id</label><br>
+                    <input type="email" id="email">
+                </div>
+
+                <div id="field">
+                    <label for="job-role">Job Role</label><br>
+                    <select id="job-role">
+                        <option>Backend-Developer</option>
+                        <option>Frontend-Developer</option>
+                        <option>Data Analyst</option>
+                        <option>Data Engineer</option>
+                    </select>
+                </div>
+
+                <div id="address-field">
+                <label for="address">Residential Address</label><br>
+                <textarea id="address" rows="10">
+                    address
+                </textarea>
+                </div>
+
+                <div id="field">
+                    <label for="city">City</label><br>
+                    <input type="text" id="city">
+                </div>
+
+                <div id="field">
+                    <label for="pin-code">Pin Code</label><br>
+                    <input type="number" id="pin-code">
+                </div>
+
+                <div id="field">
+                    <label for="start-date"> Start Date </label><br>
+                    <input type="date" id="start-date">
+                </div>
+
+                <div id="field">
+                    <label for="resume"> Upload Resume </label><br>
+                    <input type="file" id="resume">
+                </div>
+                <div id="apply">
+                <input type="submit" value="Apply Now">
+                </div>
+
+            </div>
+        
+        </form>
+    </div>
+</body>
+</html>
